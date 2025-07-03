@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL MAR AZUL</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; line-height: 1.6; background-color: #f4f4f4; color: #333; }
+        header { background-color: #333; color: white; padding: 1em; text-align: center; margin-bottom: 20px; }
+        header h1 { margin: 0; }
+        nav { background-color: #444; padding: 0.5em; text-align: center; margin-bottom: 15px; }
+        nav a { color: white; text-decoration: none; padding: 0.5em 1em; margin: 0 0.5em; border-radius: 5px; }
+        nav a:hover { background-color: #555; }
+        main { padding: 15px; background-color: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        IMG2{width: 400px}
+        h2 { color: navy; margin-top: 0; margin-bottom: 1em; border-bottom: 2px solid navy; padding-bottom: 0.5em; }
+        .hero { text-align: center; padding: 2em; background-color: #e0f2f7; border-radius: 8px; margin-bottom: 20px; }
+        .hero h2 { color: #0277bd; border-bottom: 2px solid #0277bd; padding-bottom: 0.5em; }
+        .hero button { background-color: #0277bd; color: white; padding: 0.8em 1.5em; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; margin-top: 1em; }
+        .hero button:hover { background-color: #01579b; }
+      footer { text-align: center; margin-top: 20px; padding: 1em; background-color: #33; color: black; border-radius: 5px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HOTEL MAR AZUL</h1>
+        <nav>
+            <a href="inicio.html">Inicio</a> |
+            <a href="quartos.html">Quartos</a> |
+            <a href="reservas.html">Reservas</a> |
+            <a href="lista_reservas.html">Lista de Reservas</a> |
+            <a href="funcionários.html">Funcionários</a> |
+            <a href="manutenções.html">Manutenções</a> |
+            <a href="clientes.html">Clientes</a> |
+            <a href="eventos.html">Eventos</a> |
+            <a href="avaliações.html">Avaliações</a> |
+            <a href="promoções.html">Promoções</a> |
+            <a href="pagamentos.html">Pagamentos</a> |
+            <a href="consumo.html">Consumo</a> |
+            <a href="serviços.html">Serviços</a> |
+            <a href="responsaveis.html">Responsaveis</a> |
+            <a href="aplica_se.html">Aplica_se</a> |
+            <a href="associa.html">Associa</a> |
+            <a href="participa.html">Participa</a>
+            <a href="recuperar_senha.html">recuperar senha</a>
+            <a href="cadastro.html">Cadastro</a>
+        </nav>
+      </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Seu destino de conforto e lazer em Angola.</h2>
+            <img src="./IMG2.JFIF" alt="HOTEL MAR AZUL" style="max-width: 100%;">
+            <p>Descubra a hospitalidade única do HOTEL MAR AZUL...</p>
+            <button>Verificar Disponibilidade</button>
+            <a href="quartos.html">Ver Nossos Quartos</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Telefone: [947616475] | Email: [hotelmarazul@gmail.com] | Localização: [Talatona]</p>
+    </footer>
+
+     <script>
+        function logout() {
+            window.location.href = "index.html";
+        }
+
+        window.onload = function() {
+            const referrer = document.referrer;
+            if (!referrer.includes("index.html")) {
+            }
+        };
+    </script>
+
+</body>
+</html>
